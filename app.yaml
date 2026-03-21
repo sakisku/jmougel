@@ -27,6 +27,7 @@ kind: Service
 metadata:
   name: service-wil42
 spec:
+  type: LoadBalancer
   selector:
     app: wil42
   ports:
